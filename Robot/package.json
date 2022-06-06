@@ -1,0 +1,27 @@
+{
+  "name": "horadoup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "robot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theyCallMeDudu/PCS_SGBD_hora_do_up.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theyCallMeDudu/PCS_SGBD_hora_do_up/issues"
+  },
+  "homepage": "https://github.com/theyCallMeDudu/PCS_SGBD_hora_do_up#readme",
+  "dependencies": {
+    "dayjs": "^1.9.8",
+    "express": "^4.17.1",
+    "firebase": "^8.2.1",
+    "firebase-admin": "^9.4.2",
+    "puppeteer": "^5.5.0"
+  }
+}
