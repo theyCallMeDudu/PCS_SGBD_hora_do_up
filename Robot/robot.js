@@ -201,6 +201,7 @@ async function updateProduto(idProduto) {
     }
 }
 
+// Atualiza preço dos produtos cadastrados
 async function updateTodosProdutos() {
     const produtosSnap = await db.collection('produtos').get()
 
@@ -211,14 +212,14 @@ async function updateTodosProdutos() {
 }
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDrj21HB3Y_qk3gnGkzxRTvFj2qvIj_ezg",
+    apiKey: "AIzaSyDK7qt-LcD0WlGtqOWKcsbDUzQXmcqVheE",
     authDomain: "hora-do-up.firebaseapp.com",
     projectId: "hora-do-up",
     storageBucket: "hora-do-up.appspot.com",
-    messagingSenderId: "441048775037",
-    appId: "1:441048775037:web:4b12c98975367b6e8ff414",
-    measurementId: "G-PKZ4EGB75M"
-};
+    messagingSenderId: "682215444060",
+    appId: "1:682215444060:web:9ea1bb1c7c681e64376099",
+    measurementId: "G-QCCVJ8G2C3"
+  };
 
 const dayjs = require('dayjs');
 
