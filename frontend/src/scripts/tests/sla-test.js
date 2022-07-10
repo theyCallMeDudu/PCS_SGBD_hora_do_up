@@ -55,7 +55,7 @@ export default function () {
     );
     check(
         createUserResponse,
-        { "Status code 200 retornado": (r) => r.status == 200 }
+        { "Criar Conta: Status code 200 retornado": (r) => r.status == 200 }
     );
 
     //////////////////////////////////////////////////////////////////////
@@ -67,12 +67,12 @@ export default function () {
     )
     check(
         getUserResponse,
-        { "Status code 200 retornado": (r) => r.status == 200 }
+        { "Exibir Conta: Status code 200 retornado": (r) => r.status == 200 }
     );
 
     //////////////////////////////////////////////////////////////////////
 
     // Pausa entre operações
     sleep(0.5);
-    
+
 }
